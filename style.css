@@ -1,33 +1,29 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     border: 0;
-
-}
-
-
-
-header{
+  }
+  
+  header {
     background-color: white;
     max-width: 100%;
     height: 180px;
     position: relative;
-}
-
-.texto a{
+  }
+  
+  .texto a {
     inline-size: auto;
     bottom: 21px;
     position: relative;
     display: flex;
     color: #478893;
-}
-.logo{
+  }
+  .logo {
     inline-size: 40px;
     position: relative;
     right: 58px;
-
-}
-.titulo{
+  }
+  .titulo {
     left: 280px;
     width: max-content;
     display: flex;
@@ -37,11 +33,9 @@ header{
     font-size: 40px;
     justify-content: center;
     align-items: center;
-
-
-}
-
-.texto{
+  }
+  
+  .texto {
     left: 278px;
     inline-size: 505px;
     display: flex;
@@ -53,97 +47,105 @@ header{
     align-items: baseline;
     justify-content: flex-start;
     flex-direction: row-reverse;
-
-}
-
-main{
+  }
+  
+  main {
     width: 100%;
     position: relative;
-    height: 610px;
     background-color: white;
-}
-form{
+  }
+  
+  .mono{
+  
+  right: 67px;
+  
+  top: -128px;
+  
+  position: relative;
+  
+  object-fit: cover;
+  
+  height: 195px;
+  
+  width: max-content;
+  
+  display: inline-flex;
+  
+  flex-wrap: nowrap;
+  
+  justify-content: flex-start;
+  
+  align-items: center;
+  }
+  form {
+    top: -179px;
     width: max-content;
     display: flex;
     position: relative;
-    justify-content: center;
     align-items: center;
-    flex-direction: column;
     left: 280px;
-}
-
-
-section{
+    flex-direction: column;
+  }
+  
+  section {
     padding: 14px;
     font-size: 15px;
     font-family: arial;
     font-weight: bold;
-
-
-
-}
-
-
-section input{
+  }
+  
+  section input {
     margin-top: 14px;
     height: 29px;
     border-radius: 3px;
     width: 400px;
     outline: none;
     border: 2px solid #dedee373;
-
-}
-
-
-.botones{
+  }
+  
+  .botones {
     display: flex;
-    top: 15px;
+    bottom: 171px;
     width: max-content;
     font-family: arial;
     font-size: 12px;
     left: 315px;
     position: relative;
-}
-
-ul1 li{
+  }
+  
+  ul1 li {
     list-style: disc;
-}
-
-ul1 li::marker{
+  }
+  
+  ul1 li::marker {
     font-size: 20px;
-    color: #327a87
-    
-}
-
-ul2 li{
+    color: #327a87;
+  }
+  
+  ul2 li {
     list-style: disc;
-}
-
-ul2 li::marker{
+  }
+  
+  ul2 li::marker {
     font-size: 20px;
-    color: #327a87
-    
-}
-
-ul1{
+    color: #327a87;
+  }
+  
+  ul1 {
     margin-right: 26px;
-
-}
-
-
-
-.sigychek{
+  }
+  
+  .sigychek {
     left: 310px;
     width: max-content;
     display: flex;
     font-family: arial;
     font-size: 15px;
-    top: 50px;
+    top: -158px;
     position: relative;
     align-items: center;
-
-}
-.signup{
+  }
+  .signup {
     right: 50px;
     display: flex;
     padding: 11px;
@@ -156,28 +158,21 @@ ul1{
     font-size: 15px;
     position: relative;
     letter-spacing: 3px;
-
-
-}
-
-.chek{
+  }
+  
+  .chek {
     inline-size: 316px;
     display: flex;
-}
-
-
-.chek input{
+  }
+  
+  .chek input {
     right: 25px;
     position: relative;
     top: 17px;
     display: flex;
-
-
-}
-
-
-
-.privacidad{
+  }
+  
+  .privacidad {
     font-size: 13px;
     font-family: arial;
     left: 250px;
@@ -185,21 +180,45 @@ ul1{
     inline-size: 523px;
     position: relative;
     display: flex;
-}
-
-.privacidad a{
+  }
+  
+  .privacidad a {
     color: #478893;
-
-
-}
-footer{
-
-    border-image: linear-gradient(to top, #d3cecede, #c3cac391, #dedee34a)1;
+  }
+  footer {
+    border-image: linear-gradient(to top, #d3cecede, #c3cac391, #dedee34a) 1;
     border-top: 5px solid transparent;
     background-color: #fff;
-    min-height: 10vh;
-    width: 100vw;
+    min-height: 13vh;
+    width: 101vw;
     position: fixed;
-    bottom: 0;
-
-}
+    bottom: 0px;
+  }
+  
+  input {
+    border: 2px solid currentcolor;
+  }
+  input:invalid {
+    border: 2px dashed red;
+  }
+  input:invalid:focus {
+    background-image: linear-gradient(pink, lightgreen);
+  }
+  .pass{
+    border: 2px solid currentcolor;
+  }
+  .pass:invalid {
+    border: 2px dashed red;
+  }
+  .pass:invalid:focus {
+    background-image: linear-gradient(pink, lightgreen);
+  }
+  .user {
+    border: 2px solid currentcolor;
+  }
+  .user:invalid {
+    border: 2px dashed red;
+  }
+  .user:invalid:focus {
+    background-image: linear-gradient(pink, lightgreen);
+  }
